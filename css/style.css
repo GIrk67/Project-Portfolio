@@ -1,0 +1,279 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: white;
+
+}
+
+.visually-hidden {
+    position: absolute;
+
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    width: 1600px;
+    background-color: rgba(112, 152, 226, 0.1);
+}
+
+.header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #0e3b59;
+    background-image: url(../img/bg/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    color: #ffffff;
+    text-align: center;
+    height: 800px;
+}
+
+.header-title {
+    padding: 50px;
+}
+
+.header-title h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 62px;
+    margin-bottom: 35px;
+}
+
+.header-title p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 28px;
+    line-height: 42px;
+    width: 430px;
+    text-align: center;
+}
+
+.button-down i {
+    box-sizing: border-box;
+
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.container-portfolio {
+    padding: 84px 230px 112px;
+}
+
+.portfolio-title {
+    font-family: 'Merriweather', serif;
+    color: #000000;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 62px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.portfolio-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.portfolio-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.portfolio-item h2 {
+    margin: 0;
+    order: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio-item p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    width: 360px;
+
+    order: 2;
+}
+
+.portfolio-item img {
+    width: 360px;
+    height: 250px;
+}
+
+.portfolio-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+}
+
+.portfolio-link:hover {
+    color: #0052c2;
+}
+
+.portfolio-link:active {
+    color: #00398a;
+}
+
+.container-footer {
+
+    background-color: #061634;
+    color: #6479a2;
+    height: 360px;
+    padding: 80px 230px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    width: 360px;
+}
+
+.about h2 {
+    font-weight: 400;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 28px;
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.social-icon {
+    width: 360px;
+}
+
+.social-icon p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 42px;
+}
+
+.social-icon-list {
+    padding: 0;
+    padding-right: 50px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.social-link {
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.social-link:hover {
+    color: #ffe400;
+
+    transition: 0.2s ease;
+}
+
+.contacts {
+    width: 360px;
+}
+
+.button {
+    margin-top: 25px;
+
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-style: solid;
+    background-color: transparent;
+}
+
+.button:hover {
+    box-shadow: 2px 5px 10px 0px #ababab;
+
+    transition: 0.2s ease;
+}
+
+.container-inner-header {
+    height: 150px;
+    background-color: #061634;
+
+    padding: 50px 230px;
+}
+
+.container-inner {
+    text-align: center;
+}
+
+.container-inner-header ul {
+    margin: 0;
+    padding-top: 10px;
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.inner-nav-link {
+    text-decoration: none;
+    color: #6479a2;
+    font-weight: 400;
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+.inner-nav-link:hover {
+    opacity: 0.5;
+}
+
+.inner-title {
+    margin: 0;
+    padding-top: 25px;
+    
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 62px;
+}
+
+.container-inner img {
+    margin: 25px auto;
+}
