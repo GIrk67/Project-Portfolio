@@ -24,7 +24,6 @@ body {
     white-space: nowrap;
 }
 
-
 .container {
     box-sizing: border-box;
     margin: 0 auto;
@@ -268,7 +267,7 @@ body {
 .inner-title {
     margin: 0;
     padding-top: 25px;
-    
+
     font-size: 46px;
     font-weight: 400;
     line-height: 62px;
